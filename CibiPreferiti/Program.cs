@@ -9,9 +9,13 @@ Console.WriteLine("La lista è composta da " + arrayCibiPreferiti.Length + " pia
 
 //Scorro l'array con un ciclo 
 //esercizio numero 2 : Stampa la classifica con posizione dei cibi
-for(int i = 0; i < arrayCibiPreferiti.Length; i++)
+
+Console.WriteLine("Classifica cibi preferiti: ");
+for (int i = 0; i < arrayCibiPreferiti.Length; i++)
 {
     int posizioneInClassifica = i + 1;
-    Console.WriteLine("Classifica cibi preferiti: ");
     Console.WriteLine(posizioneInClassifica + " " + " " + arrayCibiPreferiti[i]);
 }
+
+//esercizio numero 3 : stampa il tuo cibo top
+Console.WriteLine("Cibo top: " + arrayCibiPreferiti[0]);
