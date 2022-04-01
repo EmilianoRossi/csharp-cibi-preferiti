@@ -32,3 +32,14 @@ Console.WriteLine("Il mio cibo preferito ma non troppo è: " + arrayCibiPreferit
 //esercizio 1 bonus : Stampare elemento in mediana 
 int elementoMedianaArray = arrayCibiPreferiti.Length / 2 - 1;
 Console.WriteLine("Cibo preferito di metà classifica: " + arrayCibiPreferiti[elementoMedianaArray]);
+
+//esercizio 2 bonus: gestione array dispari, stampa i due elementi in mediana
+//aggiungo con List un nuovo elemento all'array
+string nuovoElementoLista = "Pici all'amatriciana";
+List<string> list = new List<string>(arrayCibiPreferiti.ToList());
+list.Add(nuovoElementoLista);
+arrayCibiPreferiti = list.ToArray();
+
+
+
+
