@@ -7,4 +7,4 @@ string[] arrayCibiPreferiti = { "Linguine al nero di seppia", "Trippa alla roman
 //Esercizio numero 1 : stampa la lunghezza dell'array
 Console.WriteLine("La lista è composta da " + arrayCibiPreferiti.Length + " piatti");
 
-//Scorro l'array con un ciclo
+//Scorro l'array con un ciclo 
