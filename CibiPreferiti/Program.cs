@@ -19,3 +19,10 @@ for (int i = 0; i < arrayCibiPreferiti.Length; i++)
 
 //esercizio numero 3 : stampa il tuo cibo top
 Console.WriteLine("Cibo top: " + arrayCibiPreferiti[0]);
+
+//esercizio numero 4 : stampa il tuo cibo preferito ma non troppo
+//inserisco in una variabile la lunghezza della stringa-1 in modo da prendere l'indicatore dell'ultima posizione del mio array
+int ultimoElementoArray = arrayCibiPreferiti.Length - 1;
+
+//inserisco l'elemento acquisito in precedenza nell'array per prendere l'ultimo elemento dell'array
+Console.WriteLine("Il mio cibo preferito ma non troppo è: " + arrayCibiPreferiti[ultimoElementoArray]);
