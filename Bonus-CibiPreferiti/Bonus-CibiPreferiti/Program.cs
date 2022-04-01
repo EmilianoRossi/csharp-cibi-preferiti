@@ -51,7 +51,7 @@ Console.WriteLine(Environment.NewLine);
 Console.ForegroundColor = ConsoleColor.Green;
 int elementoMedianaArrayDue = arrayCibiPreferiti.Length / 2;
 int elementoMedianaArray = arrayCibiPreferiti.Length / 2 - 1;
-Console.WriteLine("Cibi preferiti di metà classifica: " + arrayCibiPreferiti[elementoMedianaArray] + " e " +arrayCibiPreferiti[elementoMedianaArrayDue]);
+Console.WriteLine("Cibi preferiti di metà classifica array di [N] pari: " + arrayCibiPreferiti[elementoMedianaArray] + " e " +arrayCibiPreferiti[elementoMedianaArrayDue]);
 Console.WriteLine(Environment.NewLine);
 
 //esercizio 2 bonus: gestione array dispari, stampa i due elementi in mediana
@@ -75,4 +75,4 @@ for (int i = 0; i < arrayCibiPreferiti.Length; i++)
 Console.WriteLine(Environment.NewLine);
 //Stampare elemento in mediana 
 
-Console.WriteLine("Cibo preferito di metà classifica: " + arrayCibiPreferiti[elementoMedianaArrayDue]);
+Console.WriteLine("Cibo preferito di metà classifica array di [N] dispari: " + arrayCibiPreferiti[elementoMedianaArrayDue]);
