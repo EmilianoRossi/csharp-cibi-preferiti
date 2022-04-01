@@ -75,4 +75,4 @@ for (int i = 0; i < arrayCibiPreferiti.Length; i++)
 Console.WriteLine(Environment.NewLine);
 //Stampare elemento in mediana 
 
-Console.WriteLine("Cibo preferito di metà classifica: " + arrayCibiPreferiti[elementoMedianaArray]);
+Console.WriteLine("Cibo preferito di metà classifica: " + arrayCibiPreferiti[elementoMedianaArrayDue]);
